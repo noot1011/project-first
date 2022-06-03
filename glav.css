@@ -7,11 +7,11 @@ body{
 }
 
 header{
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 #header-wrapper{
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -33,10 +33,41 @@ header nav a:hover{
 }
 
 header nav a:first-child{
-    opacity: 0.7;
+    opacity: 1;
     font-weight: 600;
 }
 
-.text{
-width: 500px;
+#welcome-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#welcome-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#welcome img{
+    width: 480px;
+}
+
+#welcome-p{
+    width: 450px;
+    font-size: 18px;
+    color: #67646e;
+}
+
+#welcome h1{
+    font-size: 2.5rem;
+}
+
+#welcome-button{
+    color: white;
+    background-color: rgb(255, 63, 29);
+    border-radius: 15px;
+    border: none;
+    font-size: 28px;
+    padding: 7px 25px;
+
 }
