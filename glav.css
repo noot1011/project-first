@@ -7,7 +7,7 @@ body{
 }
 
 button{
-    padding: 15px 25px;
+    padding: 15px 35px;
     border-radius: 25px;
 }
 
@@ -91,7 +91,7 @@ header nav a:first-child{
 }
 
 #services-text hr{
-    width: 55px;
+    width: 58px;
     height: 2px;
     background-color: black;
     margin: 35px auto;
@@ -138,7 +138,53 @@ text-align: center;
 background-color: white;
 border: 2px solid rgb(70, 98, 255);  
 color: rgb(70, 98, 255); 
-margin-top: 50px; 
-font-size: 18px;
+margin: 50px auto; 
+font-size: 20px;
 }
+
+#projects-wrapper{
+    margin: 0 auto;
+    width: 75%;
+}
+
+#projects-container > *{
+    margin-bottom: 170px;
+}
+
+#projects-container > *:last-child{
+    margin-bottom: 50px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project img{
+    width: 50%;
+}
+
+.project-text{
+    width: 40%;
+}
+
+.project-text button{
+    margin-top: 20px;
+}
+
+.project-text hr{
+    width: 58px;
+    height: 2px;
+    background-color: black;
+    margin: 35px 0;
+}
+
+.project-text h1{
+    font-size: 2.25rem;
+}
+
+.right-aligned{
+    flex-direction: row-reverse;
+}
+
 
