@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Major+Mono+Display&family=Mukta:wght@200&family=Permanent+Marker&family=Spline+Sans+Mono:wght@400;600;700&display=swap');
 
+/* general */
 body{
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -15,9 +16,23 @@ button{
     border-radius: 25px;
 }
 
+.btn-container{
+    text-align: center;
+}
+    
+    .default{
+    background-color: white;
+    border: 2px solid rgb(70, 98, 255);  
+    color: rgb(70, 98, 255); 
+    margin: 50px auto; 
+    font-size: 20px;
+}
+
 p{
     color: #5e5c64;
 }
+
+/* header */
 
 header{
     margin-bottom: 75px;
@@ -49,6 +64,8 @@ header nav a:first-child{
     opacity: 1;
     font-weight: 600;
 }
+
+/* section welcome */
 
 #welcome-wrapper{
     width: 70%;
@@ -83,6 +100,8 @@ header nav a:first-child{
     font-size: 28px;
     padding: 7px 25px;
 }
+
+/* services */
 
 #services-wrapper{
     width: 60%;
@@ -139,17 +158,7 @@ header nav a:first-child{
     margin-bottom: 10px;
 }
 
-.btn-container{
-text-align: center;
-}
-
-.default{
-background-color: white;
-border: 2px solid rgb(70, 98, 255);  
-color: rgb(70, 98, 255); 
-margin: 50px auto; 
-font-size: 20px;
-}
+/* projects */
 
 #projects-wrapper{
     margin: 0 auto;
@@ -192,10 +201,11 @@ font-size: 20px;
     font-size: 2.25rem;
 }
 
+/* news */
+
 .right-aligned{
     flex-direction: row-reverse;
 }
-
 
 #news{
     background: url('./images/bg.png');
@@ -249,6 +259,76 @@ font-size: 20px;
     border-top-right-radius: 20px;
 }
 
+/* video */
 
+#video-wrapper{
+    width: 75%;
+    margin: 70px auto;
+}
 
+#video-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(6, 0, 10, 0.726)), url('./images/video-cover.png');
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+}
 
+#video-element{
+    text-align: center;
+    padding: 45px;
+    width: 50%;
+    margin: 0 auto ;
+}
+
+#video-element h1{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+#video-description h1{
+    position: relative;
+    bottom: 60px;
+}
+
+.play-button{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px 20px;   
+}
+
+.play-button> *{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.play-button p{
+    color: white;
+}
+
+.play-button img{
+    width: 20%;
+}
+
+.points-container{
+    position: relative;
+}
+
+.bottom-points{
+    top: 50px;
+    right: 50px;
+}
+
+.top-points{
+    bottom: 250px;
+    right: 75px;
+}
+
+.points-container img{
+    position: absolute;
+    width: 140px;
+}
