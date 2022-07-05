@@ -332,3 +332,56 @@ header nav a:first-child{
     position: absolute;
     width: 140px;
 }
+
+#contact-wrapper{
+    width: 75%;
+    margin: 70px auto;
+}
+
+.contact-text{
+    text-align: center;
+}
+
+.contact-text h1{
+    font-size: 2rem;
+}
+
+#contact-form{
+    margin: 50px 0;
+}
+
+.contact-container> *{
+    padding: 20px;
+}
+
+.contact-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-radius: 100px;
+    box-shadow: 0 0 20px 0 #534f5a;
+    width: 50%;
+    overflow: hidden;
+}
+
+.input-container, .input-container input{
+    border: none;
+    outline: none;
+}
+
+#input-button{
+    background-color: rgb(70, 98, 255);
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+
+.input-container{
+    width: 60%;
+    padding-left: 40px;
+}
+
+.input-container input{
+    width: 90%;
+    font-size: 1.2rem;
+}
