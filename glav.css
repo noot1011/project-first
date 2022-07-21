@@ -94,7 +94,7 @@ header nav a:first-child{
 
 #welcome-button{
     color: white;
-    background-color: rgb(255, 44, 29);
+    background-color: rgb(70, 98, 255); 
     border-radius: 15px;
     border: none;
     font-size: 28px;
@@ -384,4 +384,62 @@ header nav a:first-child{
 .input-container input{
     width: 90%;
     font-size: 1.2rem;
+}
+
+#footer-wrapper{
+    width: 75%;
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+}
+
+.footer{
+    background: rgb(61,108,255);
+    background: linear-gradient(90deg, rgba(61,108,255,1) 0%, rgba(26,111,255,1) 50%, rgba(36,94,255,1) 100%);
+    color: white! important;
+
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description{
+    width: 35%;
+}
+
+.description img{
+    width: 200px;
+    margin: 10px 0 ;
+}
+
+.description p{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.links{
+    width: 10%;
+}
+
+.links ul li{
+    margin-bottom: 15px;
+}
+
+.links a{
+    color: white;
+    font-weight: 300px;
+    text-decoration: none;
 }
